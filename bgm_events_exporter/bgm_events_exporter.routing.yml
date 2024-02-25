@@ -1,0 +1,7 @@
+bgm_events_exporter.form:
+  path: '/admin/content/big-event/export'
+  defaults:
+    _title: 'Events Exporter'
+    _form: 'Drupal\bgm_events_exporter\Form\Exporter'
+  requirements:
+    _permission: 'manage events exporter'

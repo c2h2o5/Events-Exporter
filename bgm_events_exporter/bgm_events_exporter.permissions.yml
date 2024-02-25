@@ -1,0 +1,4 @@
+manage events exporter:
+  title: 'Administer BGM Events exporter'
+  description: 'Optional description.'
+  restrict access: true

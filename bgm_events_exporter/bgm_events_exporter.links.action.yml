@@ -1,0 +1,5 @@
+entity.big_event.export:
+  route_name: bgm_events_exporter.form
+  title: 'Export events'
+  appears_on:
+    - entity.big_event.collection

@@ -1,0 +1,12 @@
+services:
+  events.normalizer:
+    class: Drupal\bgm_events_exporter\Normalizer\Event
+    arguments: [ '@entity_type.manager', '@entity_type.repository', '@entity_field.manager' ]
+    tags:
+      - { name: normalizer, priority: 5 }
+
+  events_blocks.normalizer:
+    class: Drupal\bgm_events_exporter\Normalizer\EventBlock
+    arguments: [ '@entity_type.manager', '@entity_type.repository', '@entity_field.manager' ]
+    tags:
+      - { name: normalizer, priority: 5 }

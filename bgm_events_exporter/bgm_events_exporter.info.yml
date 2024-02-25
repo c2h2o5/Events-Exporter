@@ -1,0 +1,7 @@
+name: BGM Events Exporter
+type: module
+description: Export events as file. Different types (csv, json.....)
+package: BGM
+core_version_requirement: ^9 || ^10
+dependencies:
+  - big_event
